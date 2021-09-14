@@ -3,10 +3,7 @@ const User = require('./models/user');
 const users = require('./userSeed');
 
 mongoose.connect('mongodb://localhost:27017/mathrithmsuser', {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useUnifiedTopology: true,
-    useFindAndModify: false
+
 });
 
 const db = mongoose.connection;
@@ -17,9 +14,11 @@ db.once("open", () => {
 
 
 const seedDb = async() => {
+    await User.deleteMany({});
+    let i = 0;
     for (let user of users) {
         const newUser = new User({
-
+            userId: ++i,
             name: user.name,
             username: user.username,
             email: user.email,
