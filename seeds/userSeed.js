@@ -59,6 +59,54 @@ const users = [
             "city": "Roscoeview",
             "zipcode": "33263"
         }
+    },
+    {
+
+        "name": "Ashish Bhatt",
+        "username": "asbh",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157"
+        }
+    },
+    {
+
+        "name": "Rahul Chaudhary",
+        "username": "rcunique",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157"
+        }
+    },
+    {
+
+        "name": "Brown Clown",
+        "username": "brownclown",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157"
+        }
+    },
+    {
+
+        "name": "Joseph",
+        "username": "joey",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157"
+        }
     }
 ]
 
